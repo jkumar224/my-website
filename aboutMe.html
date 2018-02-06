@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		
+		<!--Only for handling metadata-->
+		<link rel="stylesheet" href="CSS/firstrun.css"> 
+		<script src = "javascript/functionality.js"></script>
 		<title>About Me</title>
 	</head>
+
+	<body background = "Photos/dust_scratches.png">
+		<h1>About Me</h1>
+
+		<h3>Prepare for a long line of text</h3>
+	</body>
+
+	<div class = "navbar" id="myNavbar">
+		<a href = "home.html"  onclick = "clickedNavBar(0)">Home</a>
+		<a href = "#aboutMe" class="active" onclick = "clickedNavBar(1)">About Me</a>
+		<a href = "#projects" onclick = "clickedNavBar(2)">Projects</a>
+		<a href = "#hobbies" onclick = "clickedNavBar(3)">Hobbies</a>
+		<a href = "#misc" onclick = "clickedNavBar(4)">Miscellaneous</a>
+		<a href="javascript:void(0);" class="icon" onclick="verticalLayout()">&#9776;</a>
+	</div>
+
 </html>
