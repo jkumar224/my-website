@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head> <!-- Only meant to hold meta-data, not actual data-->
+		<link rel="stylesheet" href="firstrun.css"> 
+		<script src = "functionality.js"></script>
+		<title>Welcome my son</title>
+	</head>
+
+	<body background = "Photos/dust_scratches.png">
+		<h1>Hi there!!!</h1>
+
+		<img src = "Photos/20170721_182956.jpg" alt = "Mountain" id = "mountain">
+
+		<h3>Welcome to my website!!!! Here's my LinkedIn</h3>
+		<a href = "https://www.linkedin.com/in/justin-kumar-061a70105/">
+			<img src = "Photos/linkedin-blue-style-logo-png-0.png" alt = "LinkedIn" style = "width:48px;">	
+		</a>
+
+		<div class = "emptySpace"></div>	
+		
+	</body>
+
+	<div class = "navbar" id="myNavbar">
+		<a href = "#home" class="active" onclick = "clickedNavBar(0)">Home</a>
+		<a href = "#aboutMe" onclick = "clickedNavBar(1)">About Me</a>
+		<a href = "#projects" onclick = "clickedNavBar(2)">Projects</a>
+		<a href = "#hobbies" onclick = "clickedNavBar(3)">Hobbies</a>
+		<a href = "#misc" onclick = "clickedNavBar(4)">Miscellaneous</a>
+		<a href="javascript:void(0);" class="icon" onclick="verticalLayout()">&#9776;</a>
+	</div>
+	
+</html>
